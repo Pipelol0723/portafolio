@@ -75,7 +75,7 @@ export default function Navbar() {
           AF
         </span>
         <span style={{ opacity: 0.9 }}>
-          andresfelipe<span style={{ color: "var(--accent,#3fb950)" }}>.dev</span>
+          pipelol<span style={{ color: "var(--accent,#3fb950)" }}>.dev</span>
         </span>
       </a>
 

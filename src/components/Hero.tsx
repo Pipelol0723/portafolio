@@ -98,7 +98,7 @@ export default function Hero() {
               color: "#6e7681",
             }}
           >
-            andresfelipe@dev — zsh — 80×24
+            pipelol@dev — zsh — 80×24
           </span>
         </div>
 
