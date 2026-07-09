@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0b0d0e;
+  color: #c9d1d9;
+  font-family: var(--font-ibm-plex-sans), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(63, 185, 80, 0.28);
+}
+
+a {
+  color: var(--accent, #3fb950);
+}
+
+a:hover {
+  color: var(--accent-hi, #56d364);
+}
+
+@keyframes blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+/* Nav links appear from 720px up (see Navbar) */
+@media (min-width: 720px) {
+  [data-navlinks] {
+    display: flex !important;
+  }
+}
+
+/* Work grid becomes two columns from 760px up */
+@media (min-width: 760px) {
+  [data-workgrid] {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr) !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3138;
+  border-radius: 6px;
+  border: 2px solid #0b0d0e;
+}
