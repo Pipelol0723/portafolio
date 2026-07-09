@@ -1,7 +1,3 @@
-"use client";
-
-import { useTranslation } from "@/context/LanguageContext";
-
 const footerLink: React.CSSProperties = {
   textDecoration: "none",
   fontFamily: "var(--font-jetbrains-mono), monospace",
@@ -13,8 +9,6 @@ const footerLink: React.CSSProperties = {
 };
 
 export default function Footer() {
-  const { t } = useTranslation();
-
   return (
     <footer
       style={{
@@ -77,19 +71,14 @@ export default function Footer() {
           >
             Workana
           </a>
-          <span
-            title="Coming soon"
-            style={{
-              fontFamily: "var(--font-jetbrains-mono), monospace",
-              fontSize: 12.5,
-              color: "#4d555d",
-              border: "1px dashed #232a30",
-              padding: "6px 11px",
-              borderRadius: 7,
-            }}
+          <a
+            href="https://www.fiverr.com/afcespedes"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={footerLink}
           >
-            Fiverr · {t.soon}
-          </span>
+            Fiverr
+          </a>
         </div>
       </div>
     </footer>
