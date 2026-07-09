@@ -30,6 +30,8 @@ export interface Translation {
   contact_sub: string;
   whatsapp: string;
   email: string;
+  email_subject: string;
+  email_body: string;
   soon: string;
   services: Service[];
 }
@@ -76,6 +78,9 @@ export const translations: Record<Lang, Translation> = {
     contact_sub: "Pick whichever’s easiest — I usually reply within a day.",
     whatsapp: "WhatsApp",
     email: "Email",
+    email_subject: "Project inquiry — from your portfolio",
+    email_body:
+      "Hi Andrés, I saw your portfolio and I'd like to talk about a project.",
     soon: "coming soon",
     services: [
       {
@@ -127,6 +132,9 @@ export const translations: Record<Lang, Translation> = {
       "Elige lo que te quede más fácil — normalmente respondo el mismo día.",
     whatsapp: "WhatsApp",
     email: "Email",
+    email_subject: "Consulta de proyecto — desde tu portafolio",
+    email_body:
+      "Hola Andrés, vi tu portafolio y me interesa hablar sobre un proyecto.",
     soon: "pronto",
     services: [
       {

@@ -2,8 +2,19 @@
 
 import { useTranslation } from "@/context/LanguageContext";
 
+const EMAIL = "pipelol0723@gmail.com";
+
 export default function Contact() {
   const { t } = useTranslation();
+
+  // Gmail web "compose" — opens reliably in the browser without depending on a
+  // configured desktop mail client (which is what makes plain mailto: links
+  // silently do nothing).
+  const gmailCompose =
+    "https://mail.google.com/mail/?view=cm&fs=1" +
+    `&to=${encodeURIComponent(EMAIL)}` +
+    `&su=${encodeURIComponent(t.email_subject)}` +
+    `&body=${encodeURIComponent(t.email_body)}`;
 
   return (
     <section
@@ -94,7 +105,9 @@ export default function Contact() {
             💬 {t.whatsapp}
           </a>
           <a
-            href="mailto:pipelol0723@gmail.com"
+            href={gmailCompose}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               textDecoration: "none",
               display: "inline-flex",
