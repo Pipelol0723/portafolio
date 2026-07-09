@@ -108,24 +108,20 @@ export default function Projects() {
           </div>
           <div
             style={{
+              position: "relative",
               height: "clamp(280px,42vh,430px)",
               overflow: "hidden",
-              background: "#231a12",
+              background: "#f3eee5",
             }}
           >
             <Image
               src={bizchat}
-              alt="BizChat demo — Café Noire"
+              alt="BizChat — demo de chat (Café Noire)"
               placeholder="blur"
               priority
               sizes="(max-width: 760px) 100vw, 560px"
-              style={{
-                width: "100%",
-                height: "auto",
-                display: "block",
-                objectFit: "cover",
-                objectPosition: "top",
-              }}
+              style={{ objectFit: "contain" }}
+              fill
             />
           </div>
         </div>
