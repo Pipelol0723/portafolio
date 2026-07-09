@@ -58,17 +58,6 @@ El tema usa las variables CSS `--accent` y `--accent-hi`, definidas en `src/app/
 (constantes `ACCENT` / `ACCENT_HI`). El diseño trae 4 paletas: verde `#3fb950` (default),
 cian `#22d3ee`, ámbar `#f0a500`, magenta `#d95ce0`.
 
-## Deploy en Vercel
-
-1. Sube este proyecto a un repo de GitHub.
-2. En [vercel.com](https://vercel.com) → **New Project** → importa el repo.
-3. Vercel detecta Next.js automáticamente. No hay variables de entorno que configurar.
-4. **Deploy**. Quedará en `tu-proyecto.vercel.app`.
-5. Dominio propio (opcional): Project → Settings → **Domains** → añade `andresfelipe.dev`
-   (comprado en Namecheap/Porkbun) y sigue las instrucciones de DNS.
-
-> Alternativa sin repo: `npm i -g vercel` y luego `vercel` dentro de esta carpeta.
-
 ## Nota de seguridad (npm audit)
 
 Fijado en **Next.js 14.2.35** (última de la línea 14, ya incluye el parche de seguridad de
