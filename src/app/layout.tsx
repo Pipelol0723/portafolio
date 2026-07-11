@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Full-stack developer from Bogotá, Colombia. I build web apps and AI chatbots with Next.js, React, and OpenAI/Claude/Gemini.",
     type: "website",
-    locale: "en_US",
+    locale: "es_CO",
   },
 };
 
@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${jetbrainsMono.variable} ${ibmPlexSans.variable}`}>
+    <html lang="es" className={`${jetbrainsMono.variable} ${ibmPlexSans.variable}`}>
       <body>
         <LanguageProvider>{children}</LanguageProvider>
       </body>

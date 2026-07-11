@@ -14,8 +14,8 @@ const LanguageContext = createContext<LanguageContextValue | undefined>(
 );
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  // Default language matches the design's `defaultLang` prop ("en").
-  const [lang, setLang] = useState<Lang>("en");
+  // Default language: Spanish.
+  const [lang, setLang] = useState<Lang>("es");
 
   return (
     <LanguageContext.Provider value={{ lang, setLang, t: translations[lang] }}>
