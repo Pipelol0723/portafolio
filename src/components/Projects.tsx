@@ -199,7 +199,7 @@ export default function Projects() {
                   position: "relative",
                   height: MEDIA_HEIGHT,
                   overflow: "hidden",
-                  background: "#f3eee5",
+                  background: current.imageBg ?? "#0f1315",
                 }}
               >
                 <Image

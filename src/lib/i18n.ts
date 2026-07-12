@@ -21,6 +21,8 @@ export interface Project {
   url: string;
   /** Public path of the preview image; omit to show a placeholder. */
   image?: string;
+  /** Background behind the image (letterbox color for object-fit: contain). */
+  imageBg?: string;
   liveUrl?: string;
   liveLabel?: string;
   githubUrl?: string;
@@ -102,6 +104,7 @@ export const translations: Record<Lang, Translation> = {
         stack: "Next.js · TypeScript · Vercel AI SDK · Tailwind CSS",
         url: "🔒 bizchat-delta.vercel.app",
         image: "/bizchat.png",
+        imageBg: "#f3eee5",
         liveUrl: "https://bizchat-delta.vercel.app",
         liveLabel: "Live Demo",
         githubUrl: "https://github.com/Pipelol0723",
@@ -114,9 +117,12 @@ export const translations: Record<Lang, Translation> = {
         sub: "AI chat manager for social media",
         desc: "Multi-channel AI chatbot for businesses that unifies WhatsApp, Instagram, and Messenger. It answers common queries (hours, menu, reservations) instantly and routes complex questions to real AI (Claude, OpenAI, Gemini), with a bring-your-own-key model so clients pay only for what they use. Demo: Café Noire, a fictional coffee shop.",
         stack: "Next.js · TypeScript · Vercel AI SDK · Social APIs",
-        url: "🔒 github.com/Pipelol0723/bizchat-redes",
-        placeholderIcon: "◆",
-        placeholderLabel: "preview coming soon",
+        url: "🔒 bizchat-redes.pipelol.dev",
+        image: "/bizchat-redes.png",
+        imageBg: "#14181b",
+        liveUrl: "https://bizchat-redes.pipelol.dev",
+        liveLabel: "Live Demo",
+        githubUrl: "https://github.com/Pipelol0723/bizchat-redes",
       },
       {
         id: "portfolio",
@@ -206,6 +212,7 @@ export const translations: Record<Lang, Translation> = {
         stack: "Next.js · TypeScript · Vercel AI SDK · Tailwind CSS",
         url: "🔒 bizchat-delta.vercel.app",
         image: "/bizchat.png",
+        imageBg: "#f3eee5",
         liveUrl: "https://bizchat-delta.vercel.app",
         liveLabel: "Ver Demo",
         githubUrl: "https://github.com/Pipelol0723",
@@ -218,9 +225,12 @@ export const translations: Record<Lang, Translation> = {
         sub: "Gestor de chats de redes con IA",
         desc: "Chatbot con IA multicanal para negocios que unifica WhatsApp, Instagram y Messenger. Responde al instante las preguntas comunes (horarios, menú, reservas) y deriva las consultas complejas a IA real (Claude, OpenAI, Gemini), con un modelo «trae tu propia clave» para que el cliente pague solo por lo que usa. Demo: Café Noire, una cafetería ficticia.",
         stack: "Next.js · TypeScript · Vercel AI SDK · APIs de redes",
-        url: "🔒 github.com/Pipelol0723/bizchat-redes",
-        placeholderIcon: "◆",
-        placeholderLabel: "vista previa próximamente",
+        url: "🔒 bizchat-redes.pipelol.dev",
+        image: "/bizchat-redes.png",
+        imageBg: "#14181b",
+        liveUrl: "https://bizchat-redes.pipelol.dev",
+        liveLabel: "Ver Demo",
+        githubUrl: "https://github.com/Pipelol0723/bizchat-redes",
       },
       {
         id: "portfolio",
