@@ -18,12 +18,12 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Andrés Felipe Céspedes — Full-Stack Developer & AI Chatbot Builder",
+  title: "Andrés Felipe Céspedes Rondón — Full-Stack Developer & AI Chatbot Builder",
   description:
     "Full-stack developer from Bogotá, Colombia. I build web apps and AI chatbots with Next.js, React, and OpenAI/Claude/Gemini. Available for freelance projects.",
   metadataBase: new URL("https://pipelol.dev"),
   openGraph: {
-    title: "Andrés Felipe Céspedes — Full-Stack Developer & AI Chatbot Builder",
+    title: "Andrés Felipe Céspedes Rondón — Full-Stack Developer & AI Chatbot Builder",
     description:
       "Full-stack developer from Bogotá, Colombia. I build web apps and AI chatbots with Next.js, React, and OpenAI/Claude/Gemini.",
     type: "website",

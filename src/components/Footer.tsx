@@ -37,7 +37,7 @@ export default function Footer() {
             color: "#6e7681",
           }}
         >
-          © 2026 Andrés Felipe Céspedes · Bogotá, Colombia 🇨🇴
+          © 2026 Andrés Felipe Céspedes Rondón · Bogotá, Colombia 🇨🇴
         </div>
         <div
           style={{

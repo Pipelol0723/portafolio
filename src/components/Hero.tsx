@@ -125,7 +125,7 @@ export default function Hero() {
           >
             <Image
               src={fotoPipe}
-              alt="Andrés Felipe Céspedes"
+              alt="Andrés Felipe Céspedes Rondón"
               priority
               placeholder="blur"
               sizes="(max-width: 720px) 64px, 92px"

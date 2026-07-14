@@ -84,7 +84,7 @@ export const translations: Record<Lang, Translation> = {
       "I build web apps and AI chatbots for businesses that want to stand out.",
     hero_sub: "Full-Stack Developer · Bogotá, Colombia · Bilingual ES/EN",
     about_1:
-      "I'm a software engineering student at Universidad Sergio Arboleda, Bogotá. I specialize in Next.js, React, and integrating AI into web products.",
+      "I'm a software and AI engineering student at Universidad Sergio Arboleda, Bogotá. I specialize in Next.js, React, and integrating AI into web products.",
     about_2:
       "I work with clients across LATAM and internationally, in Spanish and English. My focus: clean code, fast delivery, and products people actually want to use.",
     work_title: "selected work",
@@ -192,7 +192,7 @@ export const translations: Record<Lang, Translation> = {
       "Desarrollo aplicaciones web y chatbots con IA para negocios que quieren diferenciarse.",
     hero_sub: "Full-Stack Developer · Bogotá, Colombia · Bilingüe ES/EN",
     about_1:
-      "Soy estudiante de ingeniería de software en la Universidad Sergio Arboleda, Bogotá. Me especializo en Next.js, React y la integración de IA en productos web.",
+      "Soy estudiante de ingeniería de software e inteligencia artificial en la Universidad Sergio Arboleda, Bogotá. Me especializo en Next.js, React y la integración de IA en productos web.",
     about_2:
       "Trabajo con clientes de LATAM e internacionales, en español e inglés. Mi enfoque: código limpio, entrega rápida y productos que la gente quiere usar.",
     work_title: "proyectos",
